@@ -9,7 +9,7 @@ directory = raw_input("Directory (End with '/' no backslashes allowed) :")
 files = os.listdir(directory)
 while files:
     try:
-        time.sleep(5) # I know its not very unconventional, but I didn't see another way arround this 
+        time.sleep(5) # I know its unconventional, but I didn't see another way arround this 
         files2 = files.pop(1)
         print (files2)
 
